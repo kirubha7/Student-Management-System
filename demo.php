@@ -30,6 +30,67 @@ class Name extends InterfaceName{
 
 }
 
+
+
+class Name extends InterfaceName{
+
+	public $title = "all";
+
+	function __construct(){
+		$this->title = "constructor ";
+	}
+
+	public function someMethod1(){
+		echo 2;
+	}
+
+
+	public function someMethod21(){
+		echo 1;
+	}
+
+
+}
+
+class Name extends InterfaceName{
+
+	public $title = "all";
+
+	function __construct(){
+		$this->title = "constructor ";
+	}
+
+	public function someMethod1(){
+		echo 2;
+	}
+
+
+	public function someMethod21(){
+		echo 1;
+	}
+
+
+}
+
+class Name extends InterfaceName{
+
+	public $title = "all";
+
+	function __construct(){
+		$this->title = "constructor ";
+	}
+
+	public function someMethod1(){
+		echo 2;
+	}
+
+
+	public function someMethod21(){
+		echo 1;
+	}
+
+
+}
 $name = new Name();
 
 
